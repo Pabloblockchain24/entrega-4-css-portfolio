@@ -1,0 +1,629 @@
+.menu-nav {
+  width: 100%;
+  padding-top: 39px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-nav #hero-container {
+  position: absolute;
+  left: 0;
+  top: 133px;
+}
+.menu-nav .header-logo {
+  color: #FFFFFF;
+  font-size: 32px;
+  font-weight: bolder;
+  line-height: 32px;
+  letter-spacing: -0.44px;
+}
+.menu-nav #header-links {
+  z-index: 1;
+  padding-right: 24px;
+  display: flex;
+  gap: 32px;
+}
+.menu-nav #header-links img {
+  width: 24px;
+  cursor: pointer;
+}
+.menu-nav #header-links img:hover {
+  color: #4EE1A0;
+}
+.menu-nav #header-links .icon {
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 32px;
+}
+.menu-nav #header-links .icon:hover {
+  color: #4EE1A0;
+}
+.menu-nav #header-links .svg-container {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+.menu-nav #header-links .svg-container:hover .svg-icon {
+  fill: #4EE1A0;
+}
+
+#presentation-container {
+  padding-top: 127px;
+  padding-bottom: 224px;
+  display: flex;
+}
+#presentation-container div {
+  z-index: 1;
+}
+#presentation-container div h1 {
+  color: #FFFFFF;
+  font-size: 88px;
+  font-weight: bolder;
+  line-height: 88px;
+  letter-spacing: -2.5px;
+}
+#presentation-container div h1 span {
+  position: relative;
+  display: inline-block;
+  z-index: 0;
+}
+#presentation-container div h1 span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 6px;
+  background-color: #4EE1A0;
+  z-index: -1;
+}
+#presentation-container div p {
+  margin-top: 43px;
+  color: #d9d9d9;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  font-weight: 500;
+}
+#presentation-container div .contact-button {
+  margin-top: 66px;
+}
+#presentation-container div .contact-button span {
+  color: #FFFFFF;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #4EE1A0;
+  letter-spacing: 2.29px;
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: bolder;
+  cursor: pointer;
+  padding: 16px 0;
+}
+#presentation-container div .contact-button span:hover {
+  color: #4EE1A0;
+}
+#presentation-container img {
+  width: 445px;
+  height: 720px;
+  position: absolute;
+  right: 405px;
+  top: 0;
+  z-index: 0;
+}
+#presentation-container figure picture #circle {
+  position: absolute;
+  right: 785.5px;
+  top: 480px;
+  height: 129px;
+  width: 129px;
+}
+
+#techs-section #techs-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 72px;
+  padding-bottom: 140px;
+}
+#techs-section #techs-container div {
+  padding: 10px;
+  flex: 1;
+}
+#techs-section #techs-container div h2 {
+  color: #FFFFFF;
+  font-size: 48px;
+  font-weight: bolder;
+  line-height: 56px;
+  letter-spacing: -1.5px;
+}
+#techs-section #techs-container div p {
+  color: #d9d9d9;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+#techs-section #techs-container article#hero-container-2 {
+  position: absolute;
+  right: 0px;
+  top: 1141.5px;
+}
+#techs-section #techs-container article#hero-container-2 img {
+  height: 129px;
+}
+#techs-section::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+#techs-section::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+#projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding-bottom: 139px;
+}
+#projects-container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#projects-container header h2 {
+  font-size: 88px;
+  font-weight: bolder;
+  line-height: 88px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+}
+#projects-container header div {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.29px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  padding: 10px;
+  border-bottom: 2px solid #4EE1A0;
+  cursor: pointer;
+}
+#projects-container header div:hover {
+  color: #4EE1A0;
+}
+#projects-container #project-list {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  gap: 30px;
+}
+#projects-container #project-list article {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: auto;
+  margin-bottom: 60px;
+}
+#projects-container #project-list article h3 {
+  font-size: 24px;
+  letter-spacing: 0px;
+  font-weight: bolder;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+#projects-container #project-list article div {
+  display: flex;
+  gap: 18px;
+}
+#projects-container #project-list article div p {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: #d9d9d9;
+}
+#projects-container #project-list article .project {
+  position: relative;
+  display: inline-block;
+}
+#projects-container #project-list article .project img {
+  width: 100%;
+  transition: opacity 0.3s ease;
+  margin-bottom: 10px;
+}
+#projects-container #project-list article .project #project-links {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+#projects-container #project-list article .project #project-links a {
+  color: #FFFFFF;
+  opacity: 1;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 16px;
+  letter-spacing: 2.29px;
+  border-bottom: 2px solid #4EE1A0;
+}
+#projects-container #project-list article .project #project-links a:hover {
+  color: #4EE1A0;
+}
+#projects-container #project-list article .project:hover img {
+  opacity: 0.3;
+}
+#projects-container #project-list article .project:hover #project-links {
+  opacity: 1;
+}
+
+#footer-container {
+  padding-block: 84px;
+  background-color: #242424;
+  display: flex;
+  flex-direction: column;
+}
+#footer-container #contact-container {
+  display: flex;
+  gap: 220px;
+  border-bottom: 1px solid white;
+  padding-bottom: 84px;
+}
+#footer-container #contact-container div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+#footer-container #contact-container div h2 {
+  font-size: 88px;
+  line-height: 88px;
+  letter-spacing: -2.5px;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-bottom: 36px;
+}
+#footer-container #contact-container div p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: #d9d9d9;
+}
+#footer-container #contact-container form {
+  display: flex;
+  flex-direction: column;
+  width: 445px;
+  gap: 32px;
+}
+#footer-container #contact-container form .form-group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#footer-container #contact-container form .form-group input,
+#footer-container #contact-container form .form-group textarea {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #242424;
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 16px 0 16px 24px;
+  padding-right: 40px;
+  position: relative;
+  transition: border-bottom 0.3s;
+}
+#footer-container #contact-container form .form-group input:focus, #footer-container #contact-container form .form-group input:active, #footer-container #contact-container form .form-group input:hover,
+#footer-container #contact-container form .form-group textarea:focus,
+#footer-container #contact-container form .form-group textarea:active,
+#footer-container #contact-container form .form-group textarea:hover {
+  background-color: #242424;
+  color: #FFFFFF;
+  outline: none;
+}
+#footer-container #contact-container form .form-group input:placeholder-shown,
+#footer-container #contact-container form .form-group textarea:placeholder-shown {
+  border-bottom: 1px solid white;
+}
+#footer-container #contact-container form .form-group input:not(:placeholder-shown):invalid,
+#footer-container #contact-container form .form-group textarea:not(:placeholder-shown):invalid {
+  border-bottom: 2px solid #FF6F5B;
+}
+#footer-container #contact-container form .form-group input:not(:placeholder-shown):valid,
+#footer-container #contact-container form .form-group textarea:not(:placeholder-shown):valid {
+  border-bottom: 2px solid #4EE1A0;
+}
+#footer-container #contact-container form .form-group .error-message {
+  color: #FF6F5B;
+  font-size: 12px;
+  display: none;
+  text-align: end;
+}
+#footer-container #contact-container form .form-group input:not(:placeholder-shown):invalid + .error-message,
+#footer-container #contact-container form .form-group textarea:not(:placeholder-shown):invalid + .error-message {
+  display: block;
+}
+#footer-container #contact-container form button {
+  width: fit-content;
+  align-self: flex-end;
+  cursor: pointer;
+  font-size: 16px;
+  letter-spacing: 2.29px;
+  color: #FFFFFF;
+  background-color: #242424;
+  border: none;
+  border-bottom: 2px solid #4EE1A0;
+  padding: 16px 8px;
+}
+#footer-container #contact-container form button:hover {
+  color: #4EE1A0;
+}
+#footer-container #hero-container-3 {
+  position: absolute;
+  left: 0;
+  top: 3612px;
+}
+
+@media (max-width: 1720px) {
+  #presentation-container img {
+    right: 220px;
+  }
+  #presentation-container figure picture #circle {
+    right: 600.5px;
+  }
+}
+@media (max-width: 1440px) {
+  #presentation-container img {
+    right: 110px;
+  }
+  #presentation-container figure picture #circle {
+    right: 490.5px;
+  }
+  #hero-container-3 {
+    position: absolute;
+    left: 0;
+    top: 60%;
+  }
+}
+@media (max-width: 768px) {
+  .menu-nav #hero-container {
+    left: -180px;
+  }
+  #presentation-container {
+    padding-bottom: 120px;
+  }
+  #presentation-container div h1 {
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -2.05px;
+    padding-right: 130px;
+  }
+  #presentation-container img {
+    right: 0px;
+  }
+  #presentation-container figure picture #circle {
+    top: 580px;
+    right: 0px;
+    height: auto;
+    width: auto;
+  }
+  #techs-section #techs-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #techs-section #techs-container article#hero-container-2 {
+    top: 1350px;
+  }
+  #projects-container header h2 {
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -2.05px;
+  }
+  #projects-container #project-list {
+    gap: 60px 22px;
+  }
+  #projects-container #project-list article .project {
+    position: static;
+    display: flex;
+    flex-direction: column;
+  }
+  #projects-container #project-list article .project #project-links {
+    position: static;
+    flex-direction: row;
+    justify-content: start;
+    opacity: 1;
+    transform: none;
+  }
+  #projects-container #project-list article .project #project-links a {
+    display: inline;
+    padding: 12px 0px;
+    margin: 8px;
+  }
+  #projects-container #project-list article .project:hover img {
+    opacity: 1;
+  }
+  #footer-container #contact-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 130px;
+    gap: 48px;
+  }
+  #footer-container #contact-container div {
+    align-items: center;
+    gap: 20px;
+  }
+  #footer-container #contact-container div h2 {
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -2.05px;
+  }
+  #footer-container #contact-container div p {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+  }
+  #footer-container #hero-container-3 {
+    left: -240px;
+    top: 90%;
+  }
+}
+@media (max-width: 640px) {
+  .menu-nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  .menu-nav #hero-container {
+    top: 180px;
+  }
+  .menu-nav .header-logo {
+    margin-bottom: 24px;
+    font-size: 24px;
+  }
+  .menu-nav #header-links {
+    padding-right: 0px;
+  }
+  #presentation-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 64px;
+  }
+  #presentation-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+  }
+  #presentation-container div h1 {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1.14px;
+    text-align: center;
+    padding-right: 0px;
+  }
+  #presentation-container div h1 br {
+    display: none;
+  }
+  #presentation-container div p {
+    text-align: center;
+    font-size: 16px;
+  }
+  #presentation-container div p br {
+    display: none;
+  }
+  #presentation-container div .contact-button {
+    margin-top: 24px;
+  }
+  #presentation-container img {
+    position: static;
+    height: 252px;
+    width: 175px;
+    z-index: 9999;
+    opacity: 0.85;
+  }
+  #presentation-container figure picture #circle {
+    top: 300px;
+  }
+  #techs-section #techs-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 32px;
+    padding-bottom: 64px;
+    gap: 24px;
+  }
+  #techs-section #techs-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #techs-section #techs-container div h2 {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -1px;
+  }
+  #techs-section #techs-container article#hero-container-2 {
+    top: 1477px;
+  }
+  #projects-container {
+    padding-top: 48px;
+  }
+  #projects-container header h2 {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1.14px;
+  }
+  #projects-container header div {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.29px;
+  }
+  #projects-container #project-list {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 36px;
+  }
+  #projects-container #project-list article {
+    margin-bottom: 0px;
+  }
+  #footer-container #contact-container {
+    padding-inline: 0px;
+  }
+  #footer-container #contact-container div h2 {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1.14px;
+  }
+  #footer-container #contact-container div p {
+    text-align: justify;
+  }
+  #footer-container #contact-container form {
+    width: 100%;
+  }
+  #footer-container #hero-container-3 {
+    top: 4900px;
+    z-index: 99;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Space Grotesk";
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body > header,
+body > section,
+body > footer {
+  padding-inline: 405px;
+  background-color: #151515;
+}
+@media screen and (max-width: 1440px) {
+  body > header,
+  body > section,
+  body > footer {
+    padding-inline: 110px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body > header,
+  body > section,
+  body > footer {
+    padding-inline: 32px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
